@@ -1,11 +1,11 @@
 import requests
 
-from music.constants import API_HOST
+from galiboo import API_HOST
 from ..utils import _send_request
 
 
 def analyze_music_from_url(url):
-    from auth import auth_token
+    from galiboo.auth import auth_token
     return _send_request( requests.get(API_HOST + "/analyzer/analyze_url/", params={"token" : auth_token, "url" : url}) )
 
 # def analyze_music_from_file(file_):
@@ -17,5 +17,5 @@ def analyze_music_from_url(url):
 #     return _send_request(requests.get(API_HOST + "/analyzer/analyze_file/", params={"token": auth_token}, files=files))
 
 def analyze_music_from_youtube(youtube_url):
-    from auth import auth_token
+    from galiboo.auth import auth_token
     return _send_request( requests.get(API_HOST + "/analyzer/analyze_youtube/", params={"token" : auth_token, "url" : youtube_url}) )

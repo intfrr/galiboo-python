@@ -1,6 +1,6 @@
 api_key = "<your api key goes here>"
 
-import auth, music
+from galiboo import auth, music
 
 auth.set_api_key(api_key)
 
