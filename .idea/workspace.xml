@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73f9d156-8b4a-4ced-b962-178e38d87175" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/galiboo/music/batch_integration/__init__.py" afterPath="$PROJECT_DIR$/galiboo/music/batch_integration/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/galiboo/music/tracks/__init__.py" afterPath="$PROJECT_DIR$/galiboo/music/tracks/__init__.py" />
-      <change beforePath="$PROJECT_DIR$/galiboo/music/tracks/discover.py" afterPath="$PROJECT_DIR$/galiboo/music/tracks/discover.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +20,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="299">
-                <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <first_editor relative-caret-position="345">
+                <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -473,8 +469,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="34" column="38" lean-forward="true" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <first_editor relative-caret-position="345">
+            <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
             <folding />
           </first_editor>
           <second_editor />

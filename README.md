@@ -16,7 +16,7 @@ pip install galiboo
 Here are some examples. 
 You can also checkout our API docs at: <a href="https://apidocs.galiboo.com">https://apidocs.galiboo.com</a>
 
-#### Authentication
+### Authentication
 Always set your API key first, before calling any other API endpoints.
 
 ```python
@@ -25,9 +25,9 @@ auth.set_api_key("<your api key>")
 ```
 
 
-#### Search
-##### Smart search for music
-Find tracks that are relavent to any natural language query, automagically.
+### Search
+#### AI-powered search for music
+Find tracks that are relevant to any natural language query, auto-magically.
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -37,7 +37,7 @@ query = "soft, piano tunes"
 tracks = music.find_tracks_by_text_query(query)
 ```
 
-##### Search for tracks
+#### Search for tracks
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -47,7 +47,7 @@ track = "Attention"
 tracks = music.search_tracks(track=track)
 ```
 
-##### Search for artists
+#### Search for artists
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -57,8 +57,8 @@ artist = "Camila Cabello"
 artists = music.search_artists(artist)
 ```
 
-#### Metadata
-##### Get a track's music analysis data
+### Metadata
+#### Get a track's music analysis data
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -73,7 +73,7 @@ print viva_la_vida['analysis']['smart_tags']
 # etc...
 ```
 
-##### Get an artist's metadata
+#### Get an artist's metadata
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -83,8 +83,8 @@ coldplay = music.get_artist("5a3fc2ffd836490c18703c7d")
 print coldplay['tracks']
 ```
 
-#### Discovery
-##### Find tracks by tags
+### Discovery
+#### Find tracks by tags
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -102,7 +102,7 @@ tracks = music.find_tracks_by_tags(query)
 print tracks
 ```
 
-##### Find similar-sounding tracks
+#### Find similar-sounding tracks
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -113,8 +113,8 @@ similar_tracks = music.find_similar_tracks("5a3fc326d836490c18703e3f")
 print similar_tracks
 ```
 
-#### A.I. Music Analyzer
-##### Analyze music from a URL
+### A.I. Music Analyzer
+#### Analyze music from a URL
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -126,7 +126,7 @@ analysis = music.analyze_music_from_url(audio_url)
 print analysis
 ```
 
-##### Analyze music from a YouTube video
+#### Analyze music from a YouTube video
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -139,8 +139,8 @@ print analysis
 ```
 
 
-#### Batch analyze custom catalogs
-##### Schedule a music analysis job
+### Batch analyze custom catalogs
+#### Schedule a music analysis job
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -152,7 +152,7 @@ job = music.add_analysis_job(audio_url)
 print job
 ```
 
-##### View a music analysis job
+#### View a music analysis job
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -164,7 +164,7 @@ job = music.get_analysis_job(job_id)
 print job
 ```
 
-##### View all music analysis jobs
+#### View all music analysis jobs
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -174,7 +174,7 @@ jobs = music.get_all_analysis_jobs(page=1)
 print jobs
 ```
 
-### Last words
+## Last words
 Be sure to checkout our API docs at <a href="apidocs.galiboo.com">apidocs.galiboo.com</a> and visit our website (<a href="https://galiboo.com">galiboo.com</a>) for more information.
 
 If you have any questions, feel free to email us at <a href="mailto:hello@galiboo.com">hello@galiboo.com</a>, and we'll get back to you ASAP! :)
