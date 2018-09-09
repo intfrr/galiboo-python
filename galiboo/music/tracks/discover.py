@@ -17,3 +17,8 @@ def find_tracks_by_tags(tags_query, count=10, page=1):
                       data = tags_query
         )
     )
+
+def find_tracks_by_text_query(query, count=10, page=1):
+    from galiboo.auth import auth_token
+    return _send_request(requests.get(API_HOST + "/discover/tracks/smart_search/",
+                                      params={"token": auth_token, "q": query, "count" : count, "page" : page}))

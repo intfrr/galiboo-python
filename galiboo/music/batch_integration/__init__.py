@@ -16,7 +16,7 @@ def get_analysis_job(job_id):
                       params={"token": auth_token, "job_id": job_id})
     )
 
-def get_jobs(page=1, show_progress=False):
+def get_all_analysis_jobs(page=1, show_progress=False):
     from galiboo.auth import auth_token
 
     return _send_request(
