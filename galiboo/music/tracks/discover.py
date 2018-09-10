@@ -14,7 +14,7 @@ def find_tracks_by_tags(tags_query, count=10, page=1):
     return _send_request(
         requests.post(API_HOST + "/discover/tracks/find/",
                       params={"token": auth_token, "limit": count, "page": page},
-                      data = tags_query
+                      json = tags_query
         )
     )
 
