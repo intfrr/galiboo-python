@@ -1,6 +1,6 @@
 ![Galiboo](./assets/logo.png)
 
-# Python SDK for Galiboo's Music API 
+# Python SDK for Galiboo's Music A.I. API 
 https://galiboo.com
 
 ## API key
@@ -25,8 +25,7 @@ auth.set_api_key("<your api key>")
 ```
 
 
-### Search
-#### AI-powered search for music
+### AI-powered search for music
 Find tracks that are relevant to any natural language query, auto-magically.
 ```python
 from galiboo import auth, music
@@ -37,28 +36,7 @@ query = "soft, piano tunes"
 tracks = music.find_tracks_by_text_query(query)
 ```
 
-#### Search for tracks
-```python
-from galiboo import auth, music
-auth.set_api_key("<your api key>")
-
-# Let's search for Charlie Puth's Attention
-track = "Attention"
-tracks = music.search_tracks(track=track)
-```
-
-#### Search for artists
-```python
-from galiboo import auth, music
-auth.set_api_key("<your api key>")
-
-# Let's search for some relaxing music
-artist = "Camila Cabello"
-artists = music.search_artists(artist)
-```
-
-### Metadata
-#### Get a track's music analysis data
+### Get a track's music analysis data
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -73,18 +51,7 @@ print viva_la_vida['analysis']['smart_tags']
 # etc...
 ```
 
-#### Get an artist's metadata
-```python
-from galiboo import auth, music
-auth.set_api_key("<your api key>")
-
-coldplay = music.get_artist("5a3fc2ffd836490c18703c7d")
-
-print coldplay['tracks']
-```
-
-### Discovery
-#### Find tracks by tags
+### Find tracks by tags
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -102,7 +69,7 @@ tracks = music.find_tracks_by_tags(query)
 print tracks
 ```
 
-#### Find similar-sounding tracks
+### Find similar-sounding tracks
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -113,8 +80,7 @@ similar_tracks = music.find_similar_tracks("5a3fc326d836490c18703e3f")
 print similar_tracks
 ```
 
-### A.I. Music Analyzer
-#### Analyze music from a URL
+### Analyze music from a URL
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -126,7 +92,7 @@ analysis = music.analyze_music_from_url(audio_url)
 print analysis
 ```
 
-#### Analyze music from a YouTube video
+### Analyze music from a YouTube video
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -138,9 +104,7 @@ analysis = music.analyze_music_from_youtube(youtube_video)
 print analysis
 ```
 
-
-### Batch analyze custom catalogs
-#### Schedule a music analysis job
+### Schedule a music analysis job
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -152,7 +116,7 @@ job = music.add_analysis_job(audio_url)
 print job
 ```
 
-#### View a music analysis job
+### View a music analysis job
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -164,7 +128,7 @@ job = music.get_analysis_job(job_id)
 print job
 ```
 
-#### View all music analysis jobs
+### View all music analysis jobs
 ```python
 from galiboo import auth, music
 auth.set_api_key("<your api key>")
@@ -172,6 +136,37 @@ auth.set_api_key("<your api key>")
 # Let's get the status/results of all the analysis jobs that we scheduled
 jobs = music.get_all_analysis_jobs(page=1)
 print jobs
+```
+
+### Search for tracks
+```python
+from galiboo import auth, music
+auth.set_api_key("<your api key>")
+
+# Let's search for Charlie Puth's Attention
+track = "Attention"
+tracks = music.search_tracks(track=track)
+```
+
+### Search for artists
+```python
+from galiboo import auth, music
+auth.set_api_key("<your api key>")
+
+# Let's search for some relaxing music
+artist = "Camila Cabello"
+artists = music.search_artists(artist)
+```
+
+
+### Get an artist's metadata
+```python
+from galiboo import auth, music
+auth.set_api_key("<your api key>")
+
+coldplay = music.get_artist("5a3fc2ffd836490c18703c7d")
+
+print coldplay['tracks']
 ```
 
 ## Last words
