@@ -1,6 +1,6 @@
 ![Galiboo](./assets/logo.png)
 
-# Python SDK for Galiboo's Music A.I. API 
+# Python SDK for Galiboo's A.I. Music API (beta)
 https://galiboo.com
 
 ## API key
