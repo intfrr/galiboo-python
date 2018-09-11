@@ -13,5 +13,5 @@ setuptools.setup(
     test_suite='tests',
     tests_require=["pytest", "responses"],
     install_requires=["requests"],
-    setup_requires=["pytest-runner"],
+    #setup_requires=["pytest-runner"],
 )
