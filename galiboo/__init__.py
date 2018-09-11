@@ -6,7 +6,7 @@ from requests.exceptions import HTTPError
 class Galiboo(object):
 
     def __init__(self, api_key):
-        self.url = "http://secure.galiboo.com/api"
+        self.url = "https://secure.galiboo.com/api"
         self.session = requests.Session()
         self.session.params["token"] = api_key
 
@@ -59,6 +59,7 @@ class Resource(object):
 
         :param response: Request response object
         """
+
         try:
             response.raise_for_status()
         except HTTPError:

@@ -3,11 +3,11 @@ import setuptools
 
 setuptools.setup(
     name="galiboo",
-    version="0.0.3",
+    version="0.0.4",
     url="https://github.com/galiboo/galiboo-python",
     author="Subhash",
     author_email="subby@galiboo.com",
-    description="The official Python SDK for Galiboo's Music API.",
+    description="Official Python SDK for Galiboo's Music API.",
     long_description=open('README.md').read(),
     packages=["galiboo"],
     test_suite='tests',

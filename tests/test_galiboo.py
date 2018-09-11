@@ -9,7 +9,7 @@ from .conftest import full_path
 class TestGaliboo:
 
     def test_galiboo_instance(self, galiboo):
-        assert galiboo.url == "http://secure.galiboo.com/api"
+        assert galiboo.url == "https://secure.galiboo.com/api"
         assert isinstance(galiboo.artist, Artist) is True
         assert isinstance(galiboo.track, Track) is True
         assert isinstance(galiboo.user, User) is True
