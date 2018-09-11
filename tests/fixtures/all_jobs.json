@@ -1,0 +1,33 @@
+{
+    "jobs": [
+        {
+            "analysis_url": "/jobs/5b8c17c9011610000bc2de67/",
+            "job_id": "5b8c17c9011610000bc2de67",
+            "status": "SUCCESS",
+            "time_completed": "Sun, 02 Sep 2018 17:03:07 GMT",
+            "time_completed_isoformat": "2018-09-02T17:03:07.654000",
+            "time_created": "Sun, 02 Sep 2018 17:03:05 GMT",
+            "time_created_isoformat": "2018-09-02T17:03:05.335000",
+            "time_updated": "Sun, 02 Sep 2018 17:03:07 GMT",
+            "time_updated_isoformat": "2018-09-02T17:03:07.654000",
+            "track_id": "KDo8m2UBu4iqZ3bU9CqT",
+            "url": "https://storage.googleapis.com/gb_spotify20k/spotify_preview_audios/4iLqG9SeJSnt0cSPICSjxv.mp3"
+        },
+        {
+            "analysis_url": "/jobs/5b8ae99252344300166f46b9/",
+            "job_id": "5b8ae99252344300166f46b9",
+            "status": "SUCCESS",
+            "time_completed": "Sat, 01 Sep 2018 19:50:41 GMT",
+            "time_completed_isoformat": "2018-09-01T19:50:41.267000",
+            "time_created": "Sat, 01 Sep 2018 19:33:38 GMT",
+            "time_created_isoformat": "2018-09-01T19:33:38.966000",
+            "time_updated": "Sat, 01 Sep 2018 19:50:41 GMT",
+            "time_updated_isoformat": "2018-09-01T19:50:41.267000",
+            "track_id": "5a3faec9d836490c186f397b",
+            "url": "https://storage.googleapis.com/gb_spotify20k/spotify_preview_audios/2oxbgAkN0nJhSz9ngSSXRL.mp3"
+         }
+    ],
+    "page": 1,
+    "page_size": 10,
+    "success": true
+}
