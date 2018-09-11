@@ -1,0 +1,54 @@
+{
+    "_id": "5a43dfbec3de0d102316497e", 
+    "external_ids": {
+      "spotify": "6VuMaDnrHyPL1p4EHjYLi7"
+    }, 
+    "name": "Charlie Puth", 
+    "num_tracks": 8, 
+    "success": true, 
+    "tracks": [
+      {
+        "_id": "5a419ed78cc3d0d2d4249ebb", 
+        "analysis_url": "/api/metadata/tracks/5a419ed78cc3d0d2d4249ebb/", 
+        "artists": [
+          {
+            "_id": "5a43dfbec3de0d102316497e", 
+            "external_ids": {
+              "spotify": "6VuMaDnrHyPL1p4EHjYLi7"
+            }, 
+            "name": "Charlie Puth"
+          }
+        ], 
+        "audio_url": "https://storage.googleapis.com/gb_spotify20k/spotify_preview_audios/4iLqG9SeJSnt0cSPICSjxv.mp3", 
+        "external_ids": {
+          "spotify": "4iLqG9SeJSnt0cSPICSjxv"
+        }, 
+        "title": "Attention"
+      }, 
+      {
+        "_id": "5a41d6798cc3d0d2d42b8652", 
+        "analysis_url": "/api/metadata/tracks/5a41d6798cc3d0d2d42b8652/", 
+        "artists": [
+          {
+            "_id": "5a43dfbec3de0d102316497e", 
+            "external_ids": {
+              "spotify": "6VuMaDnrHyPL1p4EHjYLi7"
+            }, 
+            "name": "Charlie Puth"
+          }, 
+          {
+            "_id": "5a43dfcbc3de0d1023164c51", 
+            "external_ids": {
+              "spotify": "6JL8zeS1NmiOftqZTRgdTz"
+            }, 
+            "name": "Meghan Trainor"
+          }
+        ], 
+        "audio_url": "https://storage.googleapis.com/gb_spotify20k/spotify_preview_audios/7rl1z4j7MurMDnn9rHh4M2.mp3", 
+        "external_ids": {
+          "spotify": "7rl1z4j7MurMDnn9rHh4M2"
+        }, 
+        "title": "Marvin Gaye (feat. Meghan Trainor)"
+      }
+    ]
+  }

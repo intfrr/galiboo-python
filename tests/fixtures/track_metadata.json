@@ -1,0 +1,78 @@
+{
+    "_id": "5a419ed78cc3d0d2d4249ebb", 
+    "analysis": {
+      "acousticness": 0.20269793272018433, 
+      "danceability": 0.6844576001167297, 
+      "energy": 0.6664317846298218, 
+      "instrumentalness": 0.08378501236438751, 
+      "smart_tags": {
+        "overall_predictions": {
+          "Emotion-Arousing_/_Awakening": 0.037827033549547195, 
+          "Emotion-Calming_/_Soothing": 0.05083180591464043, 
+          "Emotion-Carefree_/_Lighthearted": 0.01567186787724495, 
+          "Emotion-Cheerful_/_Festive": 0.014645703136920929, 
+          "Emotion-Emotional_/_Passionate": 0.04763283580541611, 
+          "Emotion-Laid-back_/_Mellow": 0.054663557559251785, 
+          "Emotion-Light_/_Playful": 0.0154178561642766, 
+          "Emotion-Loving_/_Romantic": 0.016411077231168747, 
+          "Emotion-Pleasant_/_Comfortable": 0.0405605286359787, 
+          "Emotion-Positive_/_Optimistic": 0.0094501543790102, 
+          "Emotion-Powerful_/_Strong": 0.04072891175746918, 
+          "Emotion-Tender_/_Soft": 0.021174278110265732, 
+          "Emotion-Touching_/_Loving": 0.007727129850536585
+        }, 
+        "segment_predictions": [
+          {
+            "Emotion-Arousing_/_Awakening": 0.04864450916647911, 
+            "Emotion-Calming_/_Soothing": 0.0317840576171875, 
+            "Emotion-Carefree_/_Lighthearted": 0.018668802455067635, 
+            "Emotion-Cheerful_/_Festive": 0.013143418356776237, 
+            "Emotion-Emotional_/_Passionate": 0.05765901133418083,
+            "time_bounds": {
+              "end": 6.8608, 
+              "start": 0.0
+            }
+          }, 
+          {
+            "Emotion-Arousing_/_Awakening": 0.0458233468234539, 
+            "Emotion-Calming_/_Soothing": 0.03387957811355591, 
+            "Emotion-Carefree_/_Lighthearted": 0.018653681501746178, 
+            "Emotion-Cheerful_/_Festive": 0.01171030756086111, 
+            "Emotion-Emotional_/_Passionate": 0.06127491593360901,
+            "time_bounds": {
+              "end": 24.1664, 
+              "start": 6.8608
+            }
+          }
+        ]
+      }, 
+      "tags": {
+        "a_blues_song_form": 1.0037427273346111e-05, 
+        "a_brass_horn_ensemble": 1.903908014355693e-05, 
+        "a_breathy_female_lead_vocalist": 2.991182918776758e-05, 
+        "a_breathy_male_lead_vocalist": 8.620150038041174e-05, 
+        "a_brisk_swing_feel": 1.0442469289273504e-07, 
+        "a_bumpin'_kick_sound": 0.010785230435431004, 
+        "a_busy_bass_line": 0.006461316719651222, 
+        "a_busy_horn_section": 0.003071569139137864, 
+        "a_contrapuntal_melodic_presentation": 1.643851135213481e-07, 
+        "a_deep_voice": 0.0012636446626856923
+      }, 
+      "valence": 0.6371622085571289
+    }, 
+    "artists": [
+      {
+        "_id": "5a43dfbec3de0d102316497e", 
+        "external_ids": {
+          "spotify": "6VuMaDnrHyPL1p4EHjYLi7"
+        }, 
+        "name": "Charlie Puth"
+      }
+    ], 
+    "audio_url": "https://storage.googleapis.com/gb_spotify20k/spotify_preview_audios/4iLqG9SeJSnt0cSPICSjxv.mp3", 
+    "external_ids": {
+      "spotify": "4iLqG9SeJSnt0cSPICSjxv"
+    }, 
+    "success": true, 
+    "title": "Attention"
+  }
