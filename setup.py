@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name="galiboo",
-    version="0.0.2",
+    version="0.0.3",
     url="https://github.com/galiboo/galiboo-python",
     author="Subhash",
     author_email="subby@galiboo.com",
